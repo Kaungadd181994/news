@@ -1,6 +1,7 @@
 const feed = document.getElementById('feed');
 const catBar = document.getElementById('category-bar');
 
+
 const categories = {
   'Business': ['post1.md','post2.md'],
   'Tech': ['another-tech-post.md'],

@@ -6,7 +6,7 @@ const categories = {
   'Tech': ['another-tech-post.md'],
   'General': ['general-news.md']
 };
-
+ 
 function createCard(category, filename) {
   const title = filename.replace('.md','').replace(/-/g,' ');
   const card = document.createElement('div');
